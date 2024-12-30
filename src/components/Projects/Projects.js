@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/chatify.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Messaging bridge"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with awt tools, Material-UI, and Socket programming. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              ghLink="https://gitlab.com/sahil-bijlani/messagingbridge"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Pen It blog"
+              description="Pen It Blog is a dynamic and user-friendly blogging platform built using the Laravel framework. Designed to cater to writers, readers, and enthusiasts, this project provides a seamless interface for creating, managing, and reading blog content."
+              ghLink="https://gitlab.com/sahil-bijlani/blog-management"
             />
           </Col>
 
@@ -47,10 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Scratch pad"
+              description="The Notepad Clone project is a lightweight, feature-rich text editor inspired by the simplicity and functionality of the classic Windows Notepad application. Built with modern web technologies and frameworks, this project serves as a reliable tool for creating, editing, and managing text files."
+              ghLink="https://gitlab.com/sahil-bijlani/scratch-pad"              
             />
           </Col>
 
@@ -58,32 +55,30 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Film fiesta"
+              description="Film Fiesta is a modern web application built with React, designed to provide users with a seamless platform for discovering, browsing, and reviewing movies. Whether you're a movie enthusiast looking for the latest releases, classics, or top-rated films, Film Fiesta offers a rich and engaging experience."
+              ghLink="https://gitlab.com/react8033147/film-fiesta"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Real estate"
+              description="Real Estate Manager is a powerful, feature-rich web application built on the Laravel framework, designed to streamline the management and showcasing of real estate properties. This application caters to real estate agencies, property owners, and potential buyers or renters by providing a user-friendly platform."
+              ghLink="https://gitlab.com/Shraddha-Keniya/real-estate-2024"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={editor}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Tasker"
+              description="Tasker is an efficient and intuitive task management application designed to help individuals and teams organize, track, and accomplish their tasks effortlessly. Built with modern web technologies, Tasker combines functionality and simplicity, making it an ideal solution for personal productivity"
+              ghLink="https://gitlab.com/react8033147/tasker-using-reducer"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
